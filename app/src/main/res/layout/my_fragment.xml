@@ -85,7 +85,7 @@
                 android:layout_gravity="bottom"
                 android:ems="10"
                 android:hint="Task"
-                android:inputType="textPersonName"
+                android:inputType="textCapSentences"
                 android:maxWidth="280dp"
                 android:maxLength="50"
                 android:maxLines="2"
