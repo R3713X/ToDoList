@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_day"
+            android:icon="@drawable/ic_wb_my_day"
+            android:title="@string/my_day" />
+
+        <item
+            android:id="@+id/nav_important"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/important" />
+
+        <item
+            android:id="@+id/nav_planned"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="@string/planned" />
+
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_border_all_black_24dp"
+            android:title="@string/tasks" />
+
+        <item
+            android:id="@+id/nav_add_list"
+            android:icon="@drawable/ic_playlist_add_black_24dp"
+            android:title="@string/add_list" />
+
+    </group>
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <CheckBox
+        android:id="@+id/isTaskDoneCheckbox"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp" />
+
+
+    <TextView
+        android:id="@+id/taskDueTextView"
+        android:layout_width="130dp"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="50dp"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:paddingBottom="3dp"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/taskReminderTextView"
+        android:layout_width="130dp"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="clip_horizontal"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:paddingBottom="3dp"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/taskTextView"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="clip_horizontal"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:text="" />
+
+    <ToggleButton
+        android:id="@+id/isImportantToggleButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_star_button"
+        android:padding="20dp"
+        android:textOff=""
+        android:textOn="" />
+
+</RelativeLayout>
